@@ -9,7 +9,7 @@ public class uebung_3_1 {
 		double unterDerWurzel = ((p/2)*(p/2))-q;
 		double vorDerWurzel = -1 * p / 2;
 		
-		if (unterDerWurzel > 0) {
+		if (unterDerWurzel >= 0) {
 			double loesung1 = vorDerWurzel + Math.sqrt(unterDerWurzel);
 			double loesung2 = vorDerWurzel - Math.sqrt(unterDerWurzel);
 			
@@ -18,7 +18,7 @@ public class uebung_3_1 {
 			
 		}
 		else  {
-			System.out.println("Es ist keine Lösung möglich");
+			System.out.println("Es ist keine Lösung möglich.");
 		}
 		
 	
